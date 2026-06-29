@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "919790335544";
 
 const products = [
   {
@@ -34,7 +34,8 @@ const products = [
   {
     name: "Black Forest Cake",
     price: "₹800",
-    description: "Chocolate sponge, cherries, and whipped cream in classic layers.",
+    description:
+      "Chocolate sponge, cherries, and whipped cream in classic layers.",
     image: "https://picsum.photos/seed/black-forest-cake/640/480",
   },
   {
@@ -91,7 +92,7 @@ function renderProducts() {
             </a>
           </div>
         </article>
-      `
+      `,
     )
     .join("");
 }
@@ -133,7 +134,7 @@ function setupRevealAnimation() {
         }
       });
     },
-    { threshold: 0.16 }
+    { threshold: 0.16 },
   );
 
   revealItems.forEach((item) => observer.observe(item));
