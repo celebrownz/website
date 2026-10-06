@@ -1,0 +1,13 @@
+{
+  "name": "Celebrownz",
+  "short_name": "Celebrownz",
+  "description": "Brownies, kunafa and desserts, made to order in Chennai.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FFFAFA",
+  "theme_color": "#DB4977",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

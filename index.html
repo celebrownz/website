@@ -1,242 +1,290 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Celebrownz creates handcrafted brownies, cakes, cookies, and dessert boxes made fresh with premium ingredients."
-    />
-    <title>Celebrownz | Freshly Baked Happiness Delivered</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <nav class="navbar" aria-label="Primary navigation">
-        <a class="brand" href="#home" aria-label="Celebrownz home">
-          <span class="brand-mark">C</span>
-          <span>Celebrownz</span>
-        </a>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Celebrownz | Brownies, Kunafa and Desserts in Chennai</title>
+  <meta name="description" content="Order fudgy brownies, brownie boxes and slabs, kunafa, can cakes and caramel pudding from Celebrownz in Nandanam, Chennai. Made to order. Order on WhatsApp.">
+  <link rel="canonical" href="https://www.celebrownz.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#FFFAFA">
 
-        <button
-          class="nav-toggle"
-          type="button"
-          aria-label="Open menu"
-          aria-expanded="false"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+  <!-- Icons -->
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/images/favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="icon" href="/images/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Sharing previews (WhatsApp, Facebook, LinkedIn, X) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Celebrownz">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:url" content="https://www.celebrownz.com/">
+  <meta property="og:title" content="Celebrownz | Brownies, Kunafa and Desserts in Chennai">
+  <meta property="og:description" content="Fudgy brownies, brownie slabs, kunafa, can cakes and caramel pudding, made to order in Chennai. Order on WhatsApp.">
+  <meta property="og:image" content="https://www.celebrownz.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Celebrownz logo beside an assorted brownie box, a pista kunafa can cake and a roasted almond brownie">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Celebrownz | Brownies, Kunafa and Desserts in Chennai">
+  <meta name="twitter:description" content="Fudgy brownies, brownie slabs, kunafa, can cakes and caramel pudding, made to order in Chennai.">
+  <meta name="twitter:image" content="https://www.celebrownz.com/images/og-image.jpg">
 
-    <main>
-      <section class="hero section" id="home">
-        <div class="hero-overlay"></div>
-        <div class="hero-content reveal">
-          <p class="eyebrow">Celebrownz Bakery</p>
-          <h1>Freshly Baked Happiness Delivered</h1>
-          <p>
-            Handcrafted brownies, cakes, cookies and desserts made with premium
-            ingredients.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#products">View Products</a>
-            <a
-              class="btn btn-secondary"
-              href="https://wa.me/919790335544"
-              target="_blank"
-              rel="noopener"
-            >
-              Order on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+  <!-- Business details for Google (the menu is added by script.js from the product list) -->
+  <script type="application/ld+json" id="ld-business">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "@id": "https://www.celebrownz.com/#bakery",
+    "name": "Celebrownz",
+    "url": "https://www.celebrownz.com/",
+    "logo": "https://www.celebrownz.com/images/icon-512.png",
+    "image": "https://www.celebrownz.com/images/og-image.jpg",
+    "description": "Fudgy brownies, brownie boxes and slabs, kunafa, can cakes and caramel pudding, made to order in Chennai.",
+    "telephone": "+91-97903-35544",
+    "priceRange": "₹66 – ₹1,500",
+    "servesCuisine": "Desserts",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "30/68, Fanepet 2nd St, Fanepet, Nandanam",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "600035",
+      "addressCountry": "IN"
+    },
+    "areaServed": { "@type": "City", "name": "Chennai" },
+    "potentialAction": {
+      "@type": "OrderAction",
+      "target": "https://wa.me/919790335544"
+    }
+  }
+  </script>
 
-      <section class="section about" id="about">
-        <div class="container two-column">
-          <div class="section-copy reveal">
-            <p class="eyebrow">About Celebrownz</p>
-            <h2>Baked fresh for every celebration</h2>
-            <p>
-              Celebrownz creates handcrafted brownies, cakes, cookies, and
-              dessert boxes using premium ingredients. Every product is baked
-              fresh with love and care to make every celebration special.
-            </p>
-          </div>
-          <div class="image-frame reveal">
-            <img
-              src="https://picsum.photos/seed/celebrownz-about/720/560"
-              alt="Fresh bakery desserts on a counter"
-            />
-          </div>
-        </div>
-      </section>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3Z"/></symbol></svg>
+  <a class="skip" href="#menu">Skip to the menu</a>
 
-      <section class="section products" id="products">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Our Products</p>
-            <h2>Signature bakes and celebration treats</h2>
-          </div>
+  <header class="nav">
+    <a class="logo" href="#top"><img src="images/logo.svg" alt="Celebrownz" width="114" height="67"></a>
+    <nav id="site-menu" aria-label="Main">
+      <a href="#menu">Menu</a>
+      <a href="#how">How ordering works</a>
+      <a href="#plan">Plan an order</a>
+    </nav>
+    <a class="btn btn-small" data-wa href="#">Order on WhatsApp</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+      <span class="sr">Navigation</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path class="bar top" d="M4 7h16"/><path class="bar mid" d="M4 12h16"/><path class="bar bot" d="M4 17h16"/></svg>
+    </button>
+  </header>
 
-          <div class="product-grid" id="productGrid" aria-live="polite"></div>
-        </div>
-      </section>
-
-      <section class="section gallery" id="gallery">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Gallery</p>
-            <h2>Fresh from the Celebrownz kitchen</h2>
-          </div>
-
-          <div class="gallery-grid">
-            <img
-              class="reveal"
-              src="https://picsum.photos/seed/celebrownz-gallery-1/520/520"
-              alt="Assorted bakery dessert display"
-            />
-            <img
-              class="reveal"
-              src="https://picsum.photos/seed/celebrownz-gallery-2/520/520"
-              alt="Chocolate brownie pieces"
-            />
-            <img
-              class="reveal"
-              src="https://picsum.photos/seed/celebrownz-gallery-3/520/520"
-              alt="Decorated celebration cake"
-            />
-            <img
-              class="reveal"
-              src="https://picsum.photos/seed/celebrownz-gallery-4/520/520"
-              alt="Cookies arranged on a tray"
-            />
-            <img
-              class="reveal"
-              src="https://picsum.photos/seed/celebrownz-gallery-5/520/520"
-              alt="Dessert hamper packaging"
-            />
-            <img
-              class="reveal"
-              src="https://picsum.photos/seed/celebrownz-gallery-6/520/520"
-              alt="Freshly baked sweets"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section testimonials"
-        aria-labelledby="testimonials-title"
-      >
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Testimonials</p>
-            <h2 id="testimonials-title">Loved by dessert people</h2>
-          </div>
-
-          <div class="testimonial-grid">
-            <article class="testimonial-card reveal">
-              <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
-              <blockquote>"Best brownies in town!"</blockquote>
-            </article>
-            <article class="testimonial-card reveal">
-              <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
-              <blockquote>"Amazing cakes and excellent service."</blockquote>
-            </article>
-            <article class="testimonial-card reveal">
-              <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
-              <blockquote>"Perfect desserts for celebrations."</blockquote>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact" id="contact">
-        <div class="container two-column contact-layout">
-          <div class="contact-card reveal">
-            <p class="eyebrow">Contact</p>
-            <h2>Celebrownz</h2>
-            <address>
-              Chennai, Tamil Nadu
-              <br /><br />
-              <strong>Phone:</strong><br />
-              <a href="tel:+919876543210">+91 9876543210</a>
-              <br /><br />
-              <strong>Email:</strong><br />
-              <a href="mailto:hello@celebrownz.com">hello@celebrownz.com</a>
-            </address>
-          </div>
-
-          <form class="contact-form reveal" id="contactForm">
-            <label for="name">Name</label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              placeholder="Your name"
-              required
-            />
-
-            <label for="phone">Phone</label>
-            <input
-              id="phone"
-              name="phone"
-              type="tel"
-              placeholder="+91 98765 43210"
-              required
-            />
-
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              placeholder="Tell us what you would like to order"
-              required
-            ></textarea>
-
-            <button class="btn btn-primary" type="submit">Send</button>
-            <p class="form-status" id="formStatus" role="status"></p>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-content">
-        <p>© 2026 Celebrownz. All Rights Reserved.</p>
-        <div class="social-links" aria-label="Social media links">
-          <a href="#" aria-label="Instagram">Instagram</a>
-          <a href="#" aria-label="Facebook">Facebook</a>
-          <a
-            href="https://wa.me/919790335544"
-            target="_blank"
-            rel="noopener"
-            aria-label="WhatsApp"
-            >WhatsApp</a
-          >
+  <main id="top">
+    <section class="hero">
+      <div class="hero-panel">
+      <div class="hero-copy">
+        <h1>Baked for the days you’ll remember.</h1>
+        <p class="lede">Fudgy brownies, brownie slabs for celebrations, kunafa, can cakes and caramel pudding, made to order in Chennai. Pick something you love and message us on WhatsApp. We’ll confirm the details and timing with you.</p>
+        <div class="hero-actions">
+          <a class="btn hero-wa" data-wa href="#">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="wa-icon"><use href="#wa"/></svg>
+            Order on WhatsApp
+          </a>
+          <a class="btn btn-outline" href="#menu">See the menu</a>
         </div>
       </div>
-    </footer>
 
-    <script src="script.js"></script>
-  </body>
+      <!-- The one bold moment: a slice in the logo's colours that layers itself on load -->
+      <div class="slice-wrap" aria-hidden="true">
+      <svg class="confetti" viewBox="214 83 43 60">
+        <path d="M253.2,131.7c0.3-0.1,0.7-0.1,1-0.2c0.4-0.1,0.9-0.2,1.2,0.2c0.3,0.4,0.3,0.8,0.1,1.3
+			c-0.2,0.4-0.5,0.8-0.4,1.3c-0.3,0.2-0.4,0.5-0.4,0.8c-0.1,0.1-0.1,0.3,0,0.4c-0.1,0.1-0.1,0.2,0.1,0.2l0,0
+			c0.3,0.7,0.7,1.2,1.2,1.8c0.4,0.5,0.4,1,0.1,1.5c0,0,0,0,0,0c-0.1,0.1-0.1,0.1-0.2,0.2c-0.9,0.1-1.8,0-2.7-0.1
+			c-0.6-0.1-1,0.2-1.3,0.6c-0.3,0.4-0.6,0.9-0.9,1.3c-0.3,0.5-0.8,0.7-1.4,0.6c-0.6-0.1-0.7-0.6-0.8-1c-0.2-1.9-1.1-3-3-3.3
+			c-0.5-0.1-0.8-0.4-0.9-0.9c-0.1-0.6,0.4-0.9,0.8-1c1.8-0.7,2.6-2,2.3-3.9c-0.1-0.5-0.1-1,0.5-1.3c0.6-0.3,1,0.1,1.4,0.4
+			c0.1,0.1,0.2,0.1,0.4,0.2C251.8,132.5,251.8,132.5,253.2,131.7z M249.8,133c-0.1,1.2,0.1,2.1-1,2.7c-0.4,0.2-0.1,0.7,0.3,0.7
+			c0.8,0.1,0.9,0.7,1,1.3c0.1,0.3,0.1,0.6,0.5,0.9c0.5-1.5,1.6-1.7,3.2-1.3c-1.3-1.1-1.4-2.2-0.6-3.5
+			C251.8,134.5,250.7,134.2,249.8,133z"/>
+        <path d="M243.9,94.6c-0.4-0.7-1-1.3-1.5-1.9c-0.3-0.3-0.6-0.3-0.9-0.3c-0.7,0.1-1.3,0.1-2,0.2c-0.4,0-0.9,0.1-1.2-0.4
+			c-0.3-0.5-0.1-0.9,0.1-1.3c0.4-0.6,0.8-1.3,1.3-1.9c0.2-0.3,0.2-0.5,0.1-0.9c-0.3-0.7-0.6-1.5-0.8-2.3c-0.3-0.9,0.3-1.5,1.3-1.3
+			c0.7,0.2,1.4,0.4,2.1,0.6c0.5,0.2,0.9,0.1,1.2-0.3c0.4-0.4,0.9-0.7,1.3-1.1c0.5-0.5,1.1-0.5,1.6,0c0.2,0.5,0.3,1,0.3,1.6
+			c-0.1,1.3,0.1,2.3,1.5,2.8c0.3,0.1,0.5,0.3,0.8,0.5c0.4,0.2,0.8,0.4,0.7,1c-0.1,0.5-0.4,0.7-0.9,0.9c-0.6,0.2-1.2,0.5-1.9,0.7
+			c-0.5,0.2-0.8,0.5-0.7,1c0,0,0,0,0,0c0,0.1-0.1,0.2-0.1,0.2c0,0,0,0,0,0c-0.3,0.4-0.3,0.9-0.4,1.4C245.4,95,245,95.2,243.9,94.6z
+			 M241.5,87c-0.1,0.8,0.5,1.2,0.5,1.8c-0.1,0.6-0.9,0.9-0.8,1.7c1.4-0.5,2.3,0.2,3.1,1.6c0.3-1.3,0.5-2.3,1.7-2.5
+			c0.2,0,0.5,0,0.5-0.3c0-0.2-0.2-0.3-0.4-0.4c-0.7-0.4-1.1-0.9-1-1.7c0-0.3-0.1-0.5-0.1-1C243.8,87.3,242.8,87.7,241.5,87z"/>
+        <path d="M225.3,92.7c1.3,5.2,0.8,10.8-1.3,16.3c-0.7,1.9-1.6,3.7-2.8,5.4c-0.5,0.7-1.1,1-1.6,0.6
+			c-0.5-0.5-0.5-1,0-1.6c3-4.5,4.5-9.5,4.5-14.9c0-2.8-0.4-5.7-1.6-8.3c-0.2-0.4-0.3-0.8-0.4-1.2c-0.2-0.5-0.1-0.9,0.4-1.1
+			c0.5-0.2,1-0.2,1.3,0.4C224.4,89.5,224.8,90.9,225.3,92.7z"/>
+        <path d="M238.8,112c-2.6,1.2-5,2.8-7.2,4.7c-3.1,2.6-5.8,5.6-7.9,9.1c-0.2,0.4-0.4,0.8-0.6,1.2
+			c-0.2,0.4-0.4,0.9-1.1,0.6c-0.7-0.3-0.9-0.7-0.6-1.4c1.5-3.3,3.8-6,6.3-8.6c3.6-3.6,7.8-6.4,12.5-8.5c0.2,0.1,0.3,0,0.5-0.1
+			c0.8-0.4,1.4-0.3,1.6,0.3c0.3,0.7-0.2,1.1-0.8,1.3C240.6,111.1,239.6,111.3,238.8,112z"/>
+        <path d="M241.3,120.5c3.7-1.1,7.1-1.3,10.5,0c0.8,0.3,1.5,0.7,2.1,1.2c0.5,0.3,0.7,0.7,0.4,1.2
+			c-0.3,0.6-0.8,0.6-1.4,0.3c-0.9-0.5-1.7-1-2.7-1.2c-3.6-1.1-7.1-0.3-10.4,1c-0.8,0.3-1.4,0.2-1.6-0.3c-0.2-0.5,0.1-1.1,0.9-1.4
+			C240,120.9,240.8,120.6,241.3,120.5z"/>
+        <path d="M248.7,113.2c0.4-2,1.8-3.3,3.5-3.3c1.8,0,3.3,1.2,3.5,2.9c0.3,1.9-0.3,3-1.9,3.8c-1.6,0.8-3.5,0.2-4.5-1.2
+			C249,114.7,248.7,114,248.7,113.2z M252.8,115c0.8-0.2,1.3-1.2,1.2-2c-0.2-0.7-1.2-1.4-1.9-1.2c-0.9,0.2-1.5,1.1-1.3,1.9
+			C250.9,114.7,251.8,115.2,252.8,115z"/>
+        <path d="M225.1,134.4c0.3-1.4,1.2-2.3,2.5-2.3c1.2,0,2.3,0.8,2.4,2c0.2,1.3-0.2,2.1-1.4,2.7c-1.1,0.6-2.4,0.2-3.1-0.9
+			C225.2,135.4,225.1,134.9,225.1,134.4z M227.9,135.6c0.5-0.1,0.9-0.8,0.8-1.4c-0.1-0.5-0.8-1-1.4-0.8c-0.6,0.1-1,0.7-0.9,1.3
+			C226.6,135.4,227.2,135.8,227.9,135.6z"/>
+        <path d="M235.6,104.3c-1.9,0.5-3.7-0.6-4.2-2.5c-0.5-2,0.5-3.9,2.5-4.3c1.8-0.5,3.8,0.6,4.3,2.3
+			C238.7,101.8,237.6,103.7,235.6,104.3z M233.1,101.2c0.2,0.8,1.1,1.4,2,1.2c0.9-0.2,1.4-1.1,1.2-2c-0.2-0.8-1.2-1.4-2-1.2
+			C233.5,99.4,232.9,100.4,233.1,101.2z"/>
+        <path d="M230.2,125.7c0.6-0.2,1.2,0.2,1.4,0.8c0.2,0.6-0.2,1.2-0.9,1.4c-0.7,0.2-1-0.2-1.3-0.8
+			C229.2,126.7,229.7,125.9,230.2,125.7z"/>
+        <path d="M230.8,87.9c-0.2-0.6,0.2-1.3,0.8-1.5c0.6-0.2,1.2,0.2,1.4,0.8c0.2,0.7-0.1,1.2-0.8,1.4
+			C231.6,88.8,231,88.5,230.8,87.9z"/>
+        <path d="M217,121.9c0.2,0.7-0.1,1.2-0.8,1.4c-0.6,0.2-1.3-0.2-1.4-0.8c-0.1-0.6,0.3-1.3,0.9-1.4
+			C216.3,121.1,216.8,121.4,217,121.9z"/>
+      </svg>
+      <div class="slice">
+        <svg class="drip" viewBox="0 0 400 80" preserveAspectRatio="none">
+          <path d="M0 0H400V30C390 30 388 62 378 62S366 30 352 30 340 48 330 48 318 30 300 30 290 74 278 74 266 30 250 30 238 44 228 44 216 30 200 30 188 66 176 66 164 30 148 30 138 50 126 50 114 30 98 30 86 70 74 70 62 30 48 30 38 46 28 46 18 30 0 30Z"/>
+        </svg>
+        <div class="layer l-frost"></div>
+        <div class="layer l-brownie"></div>
+        <div class="layer l-cream"></div>
+        <div class="layer l-brownie"></div>
+        <div class="layer l-cream thin"></div>
+        <div class="layer l-brownie"></div>
+        <div class="layer l-base"></div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu" aria-labelledby="menu-title">
+      <div class="section-head">
+        <h2 id="menu-title">The menu</h2>
+        <p>Tap <strong>Order this</strong> on anything you like and WhatsApp opens with the item and price already written in.</p>
+      </div>
+
+      <div class="filters" role="toolbar" aria-label="Filter the menu">
+        <!-- buttons injected by script.js -->
+      </div>
+
+      <div class="grid" id="products" aria-live="polite">
+        <!-- products injected by script.js -->
+      </div>
+      <noscript><p>Our menu needs JavaScript to display. You can still <a href="https://wa.me/919790335544">message us on WhatsApp</a> to order.</p></noscript>
+    </section>
+
+    <section id="how" class="how" aria-labelledby="how-title">
+      <h2 id="how-title">How ordering works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Send us a message</h3>
+          <p>Choose a brownie, box or dessert from the menu. WhatsApp opens with your choice ready to send.</p>
+        </li>
+        <li>
+          <h3>We confirm the details</h3>
+          <p>We’ll reply to confirm your order and agree a pickup or delivery time that works for you.</p>
+        </li>
+        <li>
+          <h3>We bake it fresh</h3>
+          <p>Your order is baked close to the day you need it, then packed and ready for pickup or delivery in Chennai.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="plan" class="plan" aria-labelledby="plan-title">
+      <div class="plan-intro">
+        <h2 id="plan-title">Plan your order</h2>
+        <p>Fill in what you know and we’ll write the WhatsApp message for you. Every field is optional. We can work out the rest together.</p>
+      </div>
+
+      <form class="planner" id="planner">
+        <label class="field">
+          <span>What would you like?</span>
+          <select name="item" id="plan-item"></select>
+        </label>
+
+        <label class="field">
+          <span>Occasion</span>
+          <select name="occasion">
+            <option value="">Choose an occasion</option>
+            <option>Birthday</option>
+            <option>Anniversary</option>
+            <option>Wedding or engagement</option>
+            <option>Baby shower</option>
+            <option>Festival</option>
+            <option>Office celebration</option>
+            <option>Just because</option>
+          </select>
+        </label>
+
+        <div class="row">
+          <label class="field">
+            <span>Date needed</span>
+            <input type="date" name="date" id="plan-date">
+          </label>
+          <label class="field">
+            <span>Quantity</span>
+            <input type="number" name="qty" min="1" max="200" inputmode="numeric" placeholder="1">
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Message to write on it <small>(for customised slabs)</small></span>
+          <input type="text" name="message" maxlength="60" placeholder="Happy birthday, Amma">
+        </label>
+
+        <fieldset class="field choice">
+          <legend>Pickup or delivery</legend>
+          <label><input type="radio" name="handover" value="Pickup"> Pickup</label>
+          <label><input type="radio" name="handover" value="Delivery"> Delivery</label>
+        </fieldset>
+
+        <div class="preview" aria-live="polite">
+          <span class="preview-label">Your message</span>
+          <p id="plan-preview"></p>
+        </div>
+
+        <button class="btn" type="submit">Send order on WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+    <div>
+      <img class="footer-logo" src="images/logo.svg" alt="Celebrownz" width="150" height="88">
+      <p>Brownies and desserts, made to order in Chennai, Tamil Nadu.</p>
+    </div>
+    <div>
+      <p class="footer-head">Orders</p>
+      <p><a data-wa href="#">Message us on WhatsApp</a></p>
+    </div>
+    <div>
+      <p class="footer-head">Find us</p>
+      <address>30/68, Fanepet 2nd St, Fanepet,<br>Nandanam, Chennai,<br>Tamil Nadu 600035</address>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=30%2F68%2C%20Fanepet%202nd%20St%2C%20Fanepet%2C%20Nandanam%2C%20Chennai%2C%20Tamil%20Nadu%20600035" target="_blank" rel="noopener">Get directions</a></p>
+    </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Celebrownz. FSSAI Certified. All Rights Reserved.</p>
+      <p class="made-with">Made with
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer-center-heart" aria-hidden="true">
+          <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+        </svg><span class="sr">love</span> at <a href="https://maakhq.com/" target="_blank" rel="noopener">Développement MaaK Inc.</a></p>
+      <nav class="legal" aria-label="Legal">
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/terms-and-conditions.html">Terms &amp; Conditions</a>
+      </nav>
+    </div>
+  </footer>
+
+  <a class="wa-bar" data-wa href="#">
+    <svg aria-hidden="true" viewBox="0 0 24 24" class="wa-icon"><use href="#wa"/></svg>
+    Order on WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+</body>
 </html>
