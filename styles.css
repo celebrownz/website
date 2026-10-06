@@ -289,7 +289,7 @@ input[type="radio"], input[type="checkbox"] { width: 20px; height: 20px; accent-
   min-height: 58px; border-radius: 999px;
   background: var(--pink); color: #fff;
   font: 700 1.1875rem/1 var(--body); text-decoration: none;
-  box-shadow: 0 16px 30px -12px rgba(219, 73, 119, .8);
+  box-shadow: 0 16px 30px -12px rgba(219, 73, 119, .5);
 }
 
 
